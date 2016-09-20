@@ -1,0 +1,24 @@
+{
+  "name": "movie-app-back",
+  "version": "1.0.0",
+  "description": "Backend for movie app",
+  "main": "server.js",
+  "scripts": {
+    "serve": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markus Manninen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}
